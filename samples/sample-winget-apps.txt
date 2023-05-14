@@ -1,0 +1,3 @@
+Microsoft.WindowsTerminal
+VisualStudio.Code
+Google.Chrome

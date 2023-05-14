@@ -1,0 +1,3 @@
+MicrosoftWindowsPowerShellV2Root
+InternetExplorer
+Xps-Foundation-Xps-Viewer

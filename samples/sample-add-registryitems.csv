@@ -1,0 +1,5 @@
+"HKLM:\SOFTWARE\Microsoft\Windows","ExampleString","String","Hello, World!"
+"HKLM:\SOFTWARE\Microsoft\Windows","ExampleBinary","Binary","0x0102030405"
+"HKLM:\SOFTWARE\Microsoft\Windows","ExampleDWord","DWord",12345
+"HKLM:\SOFTWARE\Microsoft\Windows","ExampleQWord","QWord",9876543210
+"HKLM:\SOFTWARE\Microsoft\Windows","ExampleMultiString","MultiString","Value1`nValue2`nValue3"
