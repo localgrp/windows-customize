@@ -299,9 +299,9 @@ $FeatureTypes = @(
         AddCommand = $null;
         RemoveCommand = {
             param($Feature)
-            $InstalledPackage = Get-AppxProvisionedPackage -Online | Where-Object { $_.DisplayName -like "$($Feature)*" }
+            $InstalledPackage = Get-AppxProvisionedPackage -Online | Where-Object { $_.PackageName -like "$($Feature)*" }
             if ($InstalledPackage) {
-                Remove-AppxProvisionedPackage -PackageName $InstalledPackage.PackageName -Online -ErrorAction Stop | Out-Null
+                Remove-AppxProvisionedPackage -AllUsers -PackageName $InstalledPackage.PackageName -Online -ErrorAction Stop | Out-Null
             }
         };
     },
